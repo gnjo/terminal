@@ -1,0 +1,2 @@
+# terminal
+my terminal theme
