@@ -142,3 +142,5 @@ body {
 
 .cm-s-default .CodeMirror-matchingbracket { text-decoration: underline; color: #f26 !important;}
 .cm-s-default .CodeMirror-activeline-background { background: #202020; }
+
+div.CodeMirror-lines { padding:1rem 2rem}
