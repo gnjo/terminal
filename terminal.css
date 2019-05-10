@@ -121,26 +121,114 @@ body {
 .cm-s-default .CodeMirror-linenumber {color: #808080;}
 .cm-s-default .CodeMirror-cursor {border-left: 1px solid #c0c0c0 !important;}
 
-.cm-s-default span.cm-comment {color: #567;}
-.cm-s-default span.cm-atom {color: #0fe;}
-.cm-s-default span.cm-number {color: #fff;}
-.cm-s-default span.cm-qualifier{color: #0fe;}
-
-.cm-s-default span.cm-property, .cm-s-isotope span.cm-attribute {color: #f26;}
-.cm-s-default span.cm-keyword {color: #0fe;}
-.cm-s-default span.cm-builtin{color:#0fe;}
-.cm-s-default span.cm-tag{color: #0fe;}
-.cm-s-default span.cm-operator{color: #fff;}
-.cm-s-default span.cm-string {color: #f26;}
-.cm-s-default span.cm-meta{color: #f26;}
-.cm-s-default span.cm-variable {color: #fff;}
-.cm-s-default span.cm-variable-2 {color: #fff;}
-.cm-s-default span.cm-def {color: #fff;}
 .cm-s-default span.cm-error {background-color: #f26;color: white;}
-.cm-s-default span.cm-bracket {color: #fff;}
-.cm-s-default span.cm-link {color: #f26;}
 
 .cm-s-default .CodeMirror-matchingbracket { text-decoration: underline; color: #f26 !important;}
 .cm-s-default .CodeMirror-activeline-background { background: #202020; }
 
 div.CodeMirror-lines { padding:1rem 2rem}
+div.CodeMirror{
+ height:100%;
+}
+
+div.cm-s-default span.cm-property
+,div.cm-s-default span.cm-attribute {
+    color: #fff;
+}
+div.cm-s-default span.cm-property.cm-string{
+ color:#f26;
+}
+
+.cm-s-default span.CodeMirror-matchingbracket{
+ text-decoration: unset;
+}
+
+.ed .cm-s-default.CodeMirror{
+ background:transparent;
+}
+.cm-header,
+.cm-strong {
+    font-weight: bold
+}
+.cm-em {
+    font-style: italic
+}
+
+.CodeMirror-cursor {
+    border-left-color: white !important
+}
+
+.CodeMirror-selected {
+    background: rgba(255,255,255,0.05)
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background: rgba(255,255,255,0.1)
+}
+
+
+.cm-searching {
+    background: black;
+    outline: 2px solid rgba(255,255,255,0.25)
+}
+
+.CodeMirror-hints {
+    border: 1px solid #5a5f73;
+    background: #444857
+}
+
+.CodeMirror-hint {
+    color: white
+}
+
+li.CodeMirror-hint-active {
+    background: #c7c9d3;
+    color: black
+}
+
+
+
+.cm-header
+,.cm-number
+,.cm-unit {
+    color: #f26/*#d0782a*/
+}
+
+.cm-def
+,.cm-variable-2 {
+    color: #ccc
+}
+
+
+.cm-operator {
+    color: #ccc
+}
+
+.cm-comment {
+    color: #567
+}
+
+.box-html .cm-atom
+,.cm-string
+,.cm-string-2 {
+    color: #f26
+}
+
+.cm-property
+,.cm-meta {
+    color: #ddd
+}
+
+
+.cm-tag
+,.cm-keyword
+,.cm-atom
+,.cm-variable
+,.box-css .cm-tag
+,.cm-attribute
+,.cm-strong
+,.cm-em
+,.cm-qualifier
+,.cm-builtin {
+    color: #0ef
+}
