@@ -108,6 +108,7 @@ body {
 }
 
 /**add codemirror**/
+.cm-s-default .CodeMirror-linenumber {color: #567;}
 .cm-s-default.CodeMirror {background: #000000; color: #fff;}
 .cm-s-default div.CodeMirror-selected {background: #404040 !important;}
 .cm-s-default .CodeMirror-gutters {background: #000000; border-right: 0px;}
